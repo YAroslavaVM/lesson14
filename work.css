@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    margin: 0 5px;
+}
+
+
+.header{
+    text-align: center;
+    margin: 5px;
+}
+
+.block{
+    width: 295px;
+    height: 150px;
+    background-color: rgb(255, 255, 251);
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 20px 28px 3px rgba(49, 152, 147, 0.23);
+    -moz-box-shadow: 15px 20px 28px 3px rgba(49, 152, 147, 0.23);
+    box-shadow: 15px 20px 28px 3px rgba(49, 152, 147, 0.23);
+    
+}
+
+.work{
+    background-color: rgba(185, 185, 185, 0.993);
+    color: rgb(255, 255, 255);
+}
+
+.work .mini-text{
+    color: rgb(236, 236, 236);
+}
+
+.work a{
+    pointer-events: none;
+    cursor: default;
+}
+
+.work .a-block{
+    background-color: rgb(216, 216, 216);
+}
+
+.block:hover{
+    -webkit-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24) inset;
+    -moz-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24) inset;
+    box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24) inset;
+}
+
+.big-block{
+    background-color: rgb(219, 255, 224);
+    margin: 50px 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+    -moz-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+    box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+    
+}
+
+.big-block:hover{
+    background-color: rgb(255, 250, 223);
+}
+
+.text{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 134, 90);
+}
+
+h2{
+    padding: 15px 0px 0px 30px;
+}
+
+.micro-block{
+    display: inline-block;
+    margin: 30px 35px;
+    text-align: center;
+}
+
+.a-block{
+    padding: 3px 7px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 136, 91);
+    background-color: rgb(255, 255, 255);
+}
+
+.a-block:hover{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.mini-text{
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.big-block-2{
+    background-color: rgb(247, 255, 175);
+    margin: 50px 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+    -moz-box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+    box-shadow: 15px 15px 28px -3px rgba(68, 141, 128, 0.24);
+}
+
+.big-block-2:hover{
+    background-color: rgb(255, 250, 223);
+}
+
+
+.telegram{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    bottom: 4%;
+    right:5%;
+    -webkit-box-shadow: 11px 12px 28px 7px rgba(0, 50, 88, 0.2);
+    -moz-box-shadow: 11px 12px 28px 7px rgba(0, 50, 88, 0.2);
+    box-shadow: 11px 12px 28px 7px rgba(0, 50, 88, 0.2);
+    
+}
+
+
+
+
+.telegram>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    
+}
+
+.telegram:hover{
+    
+    background-color: rgb(0, 183, 255);
+    width: 110px;
+    height: 110px;
+    -webkit-box-shadow: 16px 16px 33px 34px rgba(0, 63, 111, 0.2) inset;
+    -moz-box-shadow: 16px 16px 33px 34px rgba(0, 63, 111, 0.2) inset;
+    box-shadow: 16px 16px 33px 34px rgba(0, 63, 111, 0.2) inset;
+    transition: 1s;
+    
+}
+
+.img{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: url("./img/6602675_clouds_halloween_moon_night_icon.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.telegram:hover a{
+    color: rgb(37, 193, 255);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    transition: 1s;
+    
+    
+    
+}
+
